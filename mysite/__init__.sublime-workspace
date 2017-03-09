@@ -1,0 +1,374 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"HttpResponse"
+			],
+			[
+				"que",
+				"question_id"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"q",
+				"question_id"
+			],
+			[
+				"pu",
+				"publish_date"
+			],
+			[
+				"_",
+				"__str__"
+			],
+			[
+				"file",
+				"file2"
+			],
+			[
+				"cont",
+				"content_file_name"
+			],
+			[
+				"File",
+				"FileSystemsStorage"
+			],
+			[
+				"content_file_name_",
+				"content_file_name_prob"
+			],
+			[
+				"co",
+				"content_file_name"
+			],
+			[
+				"fout",
+				"fout1"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"ques",
+				"question"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"da",
+				"datetime"
+			],
+			[
+				"c",
+				"choice_text"
+			],
+			[
+				"qu",
+				"question_text"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"d",
+				"django"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/avinash/UDrive/Documents/WebProjects/__init__.sublime-project",
+		"/media/avinash/UDrive/Documents/WebProjects/__init__.sublime_project",
+		"/media/avinash/UDrive/Documents/WebProjects/mysite/polls/models.py",
+		"/media/avinash/UDrive/Documents/WebProjects/mysite/polls/urls.py",
+		"/media/avinash/UDrive/Documents/WebProjects/mysite/polls/templates/polls/index.html",
+		"/media/avinash/UDrive/Documents/WebProjects/mysite/polls/views.py",
+		"/media/avinash/UDrive/Documents/WebProjects/mysite/polls/admin.py",
+		"/media/avinash/UDrive/Documents/WebProjects/mysite/mysite/settings.py",
+		"/media/avinash/UDrive/Documents/WebProjects/mysite/polls/apps.py",
+		"/media/avinash/UDrive/Documents/WebProjects/mysite/mysite/urls.py",
+		"/media/avinash/UDrive/Documents/WebProjects/mysite/manage.py",
+		"/home/avinash/Desktop/Untitled Folder/CodeJudge/judge/views.py",
+		"/home/avinash/Desktop/CodeJudge/judge/templates/judge/index.html",
+		"/home/avinash/Desktop/CodeJudge/judge/models.py",
+		"/home/avinash/Desktop/CodeJudge/judge/templates/judge/detail.html",
+		"/home/avinash/Documents/Important/codechk/1/UserCode.cpp",
+		"/home/avinash/Desktop/CodeJudge/media/CodeChecker.py",
+		"/home/avinash/Desktop/CodeJudge/judge/views.py",
+		"/home/avinash/Documents/Important/codechk/1/testout.txt",
+		"/home/avinash/Desktop/CodeJudge/media/201/AO1.txt",
+		"/home/avinash/Desktop/CodeJudge/media/201/I1.txt",
+		"/home/avinash/Desktop/CodeJudge/judge/templates/judge/submission.html",
+		"/home/avinash/Desktop/CodeJudge/media/201/UserCode.cpp",
+		"/home/avinash/Desktop/CodeJudge/media/201/testout_wJ3dTiU.txt",
+		"/media/avinash/Ubuntu 16.04.1 LTS amd64/CodeJudge/media/CodeChecker.py",
+		"/home/avinash/Desktop/CodeJudge/content/AO1.txt",
+		"/home/avinash/Desktop/CodeJudge/judge/views.pyc",
+		"/home/avinash/Desktop/Untitled Folder/CodeJudge/media/CodeChecker.pyc",
+		"/home/avinash/Desktop/Untitled Folder/CodeJudge/judge/models.py",
+		"/home/avinash/Desktop/Untitled Folder/CodeJudge/content/CodeChecker.py",
+		"/home/avinash/Desktop/CodeJudge/judge/forms.py",
+		"/home/avinash/Desktop/CodeJudge/content/CodeChecker.py",
+		"/home/avinash/Desktop/CodeJudge/content/I1.txt",
+		"/home/avinash/Documents/Important/codechk/Problem 1/ProblemStatement.txt",
+		"/home/avinash/Documents/Important/codechk/1/Problem2.cpp",
+		"/home/avinash/Documents/Important/codechk/1/ProblemStatement2.txt",
+		"/home/avinash/Desktop/CodeJudge/judge/migrations/0010_auto_20170128_2343.py",
+		"/home/avinash/Desktop/CodeJudge/judge/migrations/0010_auto_20170128_2343.pyc",
+		"/home/avinash/Documents/Important/codechk/1/AO1.txt",
+		"/home/avinash/Documents/Important/codechk/1/I1.txt",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/CodeJudge/settings.py",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/judge/models.py",
+		"/media/avinash/Windows/codechk/1/codechecker2.py",
+		"/media/avinash/Windows/Users/Avinash/My Documents/College/Viberr-master/website/settings.py",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/judge/apps.py",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/judge/forms.py",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/judge/admin.py",
+		"/media/avinash/Windows/Users/Avinash/My Documents/College/Django/OJUDGE-master/OJUDGE/settings.py",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/judge/apps.pyc",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/judge/templates/judge/submission.html",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/CodeJudge/urls.py",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/judge/views.py",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/judge/urls.py",
+		"/media/avinash/Windows/Users/Avinash/Desktop/CodeJudge/manage.py",
+		"/home/avinash/Desktop/codechecker2.py",
+		"/home/avinash/Documents/Important/codechk/1/codechecker2.py",
+		"/home/avinash/Documents/Important/codechk/Problem 2/codechecker2.py",
+		"/home/avinash/Documents/Important/codechk/Problem 2/AO1.txt",
+		"/home/avinash/Documents/Important/codechk/1/user",
+		"/home/avinash/Documents/Important/codechk/1/Output1.txt",
+		"/home/avinash/Documents/Important/codechk/Problem 1/UserCode.cpp",
+		"/home/avinash/Documents/Important/codechk/Problem 1/codechecker2.py",
+		"/home/avinash/Documents/Important/codechk/1/Input1.txt",
+		"/home/avinash/Desktop/filechecker.py",
+		"/home/avinash/Documents/Important/codechk/AO1.txt",
+		"/home/avinash/Documents/Important/codechk/testout.txt",
+		"/home/avinash/Documents/Important/codechk/testin.txt",
+		"/home/avinash/Documents/Important/CodeJudge/judge/models.py",
+		"/home/avinash/Documents/Important/CodeJudge/judge/urls.py",
+		"/home/avinash/Documents/Important/CodeJudge/judge/views.py",
+		"/home/avinash/Documents/Important/codechk/codechecker2.py",
+		"/home/avinash/Documents/Important/codechk/I1.txt",
+		"/home/avinash/Documents/Important/codechk/Problem 1/I1.txt",
+		"/home/avinash/Documents/Important/codechk/Problem 1/AO1.txt",
+		"/home/avinash/Documents/Important/codechk/out.txt",
+		"/media/avinash/Ubuntu 16.04.1 LTS amd64/codechecker2.py",
+		"/media/avinash/Ubuntu 16.04.1 LTS amd64/hackathon/CodeChecker.py",
+		"/home/avinash/Documents/add.cpp",
+		"/media/avinash/Ubuntu 16.04.1 LTS amd64/hackathon/user_op.txt",
+		"/media/avinash/Ubuntu 16.04.1 LTS amd64/hackathon/userop.txt",
+		"/media/avinash/Ubuntu 16.04.1 LTS amd64/hackathon/add.cpp",
+		"/home/avinash/Documents/WebProjects/Viberr/music/templates/music/detail.html",
+		"/home/avinash/Documents/WebProjects/CodeJudge/judge/templates/judge/index.html",
+		"/home/avinash/Documents/WebProjects/CodeJudge/judge/views.py",
+		"/home/avinash/Documents/WebProjects/CodeJudge/judge/urls.py",
+		"/home/avinash/Documents/WebProjects/CodeJudge/judge/models.py",
+		"/home/avinash/Documents/WebProjects/CodeJudge/CodeJudge/urls.py",
+		"/home/avinash/Documents/WebProjects/Viberr/music/templates/music/create_album.html",
+		"/home/avinash/Documents/WebProjects/Viberr/music/templates/music/base.html",
+		"/home/avinash/Documents/WebProjects/CodeJudge/judge/template/judge/index.html",
+		"/home/avinash/Documents/WebProjects/CodeJudge/CodeJudge/settings.py",
+		"/home/avinash/Documents/WebProjects/CodeJudge/judge/templates/index.html",
+		"/home/avinash/Documents/WebProjects/Viberr/music/views.py",
+		"/home/avinash/Documents/WebProjects/CodeJudge/CodeJudge/settings.pyc",
+		"/home/avinash/Documents/WebProjects/CodeJudge/judge/apps.py",
+		"/home/avinash/Documents/WebProjects/CodeJudge/judge/admin.py",
+		"/home/avinash/Documents/WebProjects/Viberr/music/apps.py",
+		"/home/avinash/Documents/WebProjects/Viberr/website/settings.py",
+		"/home/avinash/Documents/WebProjects/openjudge/server.sh",
+		"/home/avinash/Documents/WebProjects/openjudge/setup.sh",
+		"/home/avinash/Documents/WebProjects/openjudge/README.md",
+		"/home/avinash/Documents/WebProjects/Projects/codez/judge/urls.py",
+		"/home/avinash/Documents/WebProjects/Projects/Viberr/website/urls.py",
+		"/home/avinash/.local/lib/python2.7/site-packages/django/conf/project_template/project_name/settings.py-tpl",
+		"/home/avinash/.local/lib/python2.7/site-packages/django/conf/global_settings.py",
+		"/home/avinash/Documents/WebProjects/Projects/codez/judge/admin.py",
+		"/home/avinash/Documents/WebProjects/Projects/codez/templates/base.html",
+		"/home/avinash/.local/lib/python2.7/site-packages/django/template/__init__.py",
+		"/home/avinash/.local/lib/python2.7/site-packages/django/urls/__init__.py",
+		"/home/avinash/Documents/WebProjects/Projects/Viberr/music/admin.py",
+		"/home/avinash/Documents/WebProjects/Projects/Viberr/music/apps.py",
+		"/home/avinash/Documents/WebProjects/Projects/Viberr/music/forms.py",
+		"/home/avinash/Documents/WebProjects/Projects/Viberr/music/urls.py",
+		"/home/avinash/Documents/WebProjects/Projects/ekuOJ/README.md",
+		"/home/avinash/Documents/WebProjects/Projects/Viberr/music/urls.pyc",
+		"/home/avinash/Documents/WebProjects/django-onlinejudge-master/README.md",
+		"/home/avinash/Documents/WebProjects/django-onlinejudge-master/INSTALL.md"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"content"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "__init__.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 131.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
