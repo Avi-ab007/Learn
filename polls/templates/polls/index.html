@@ -5,7 +5,7 @@
 <h1>Available Polls</h1>
 	<ol>
 	{% for question in latest_question_list %}
-		<li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text|safe }}</a></li>
+		<li><a href="{% url 'polls:detail' question.id %}"><font color="black">{{ question.question_text|safe }}</font></a></li>
 	{% endfor %}
 	</ol>
 {% else %}

@@ -6,29 +6,48 @@
 	<meta charset="utf-8" />
 	{% load staticfiles %}
 	<link rel="stylesheet" href="{% static 'personal/css/bootstrap.min.css' %}" type = "text/css"/>
+	<script type="text/javascript" src="{% static 'personal/js/bootstrap.min.js' %}"></script>
 	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
 	
-	<style type="text/css">
+	<style type="text/css" >
 		html,
-		body {
-		  height:100%
+		body { 
+		  	height:100%
+		}
+		.button {
+    		background-color: white;
+		    border: 3px solid #4CAF50;
+		    color: black;
+		    padding: 8px 15px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 15px;
+		    margin: 4px 2px;
+		    -webkit-transition-duration: 0.4s; /* Safari */
+    		transition-duration: 0.4s;
+		    cursor: pointer;
+		}
+		.button:hover {
+		    background-color: #4CAF50; /* Green */
+		    color: white;
 		}
 	</style>
 </head>
 
-<body class="body" style="background-color:#f6f6f6">
+<body class="body" style="background-color: #f6f6f6" >
 	<div class="container-fluid" style="min-height:95%; ">
 		<div class="row">
 			  <div class="col-sm-2">
 				  <br>
 				  <center>
-					<img src="{% static 'personal/img/profile.jpg' %}" class="responsive-img" style='max-height:100px;' alt="face" alt="Profile Image">
+					<img src="{% static 'personal/img/profile.jpg' %}" class="responsive-img" style='max-height:100px;' alt="Profile Image">
 				  </center>
 			  </div>
 			  <div class="col-sm-10">
 				  <br>
 				  <center>
-				  <h3>Programming, Learning, Building</h3>
+				  <h3><font color="black">Programming, Learning, Building</font></h3>
 				  </center>
 			  </div>
 		</div><hr>
@@ -38,7 +57,6 @@
 		  <br>
 
 		  <br>
-		   <!-- Great, til you resize. -->
 			<!--<div class="well bs-sidebar affix" id="sidebar" style="background-color:#fff">-->
 			<div class="well bs-sidebar" id="sidebar" style="background-color:#fff">
 			  <ul class="nav nav-pills nav-stacked">
@@ -51,10 +69,12 @@
 		  </div><hr> <!--col-sm-2-->
 		  <div class="col-sm-10">
 		  
-			<div class='container-fluid'>
+			<div class='container-fluid' font-color='white'>
 			<br><br>
+			<font color="black">
 			   {% block content %}
 			   {% endblock %}	
+			   </font>
 			</div>
 		  </div>
 		</div> 

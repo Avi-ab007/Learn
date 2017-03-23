@@ -1,7 +1,7 @@
 {% extends "personal/header.html" %}
 
 {% block content %}
-<h1>{{ question.question_text }}</h1>
+<h1>{{ question.question_text|safe }}</h1>
 
 <ul>
 	{% for choice in question.choice_set.all %}
