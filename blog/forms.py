@@ -13,3 +13,4 @@ class PostForm(forms.ModelForm):
 		widgets = {
             'date': DateInput(attrs={'type': 'date'}),
         }
+        
