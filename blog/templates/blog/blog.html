@@ -5,6 +5,6 @@
 		<button class="b">Add New Blog</button><br><br>
 	</form>
 	{% for post in object_list %}
-		<h5>{{ post.date|date:"D, d-M-y" }}<a href="/blog/{{ post.id }}"> {{ post.title }}</a></h5>
+		<h5>{{ post.date|date:"D, d-M-y" }}<a href="{% url 'blog:blogdetail' post.id %}">  {{ post.title }}</a></h5>
 	{% endfor %}
 {% endblock %}

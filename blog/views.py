@@ -14,6 +14,12 @@ def add_post(request):
 	return render(request, 'blog/add_post.html', context)
 
 
+def delete_post(request, post_id):
+	post = Post.objects.get(pk=post_id)
+	post.delete()
+	return redirect('blog:postlist')
+
+
 class postList(generic.ListView):
 	template_name = 'blog/blog.html'
 

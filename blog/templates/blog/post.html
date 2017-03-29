@@ -1,7 +1,13 @@
 {% extends 'personal/header.html' %}
 
 {% block content %}
-<h3>{{ post.title }}</h3><br>
+<h3>{{ post.title }}</h3>
 <h6>{{ post.date }}</h6>
 {{ post.body|safe|linebreaks }}
+<br><br>
+<form action="{% url 'blog:delete_post' post.id %}" method="post">
+	{% csrf_token %}
+	<input type="hidden" name="post_id" value="{{ post.id }}" />
+	<button class="b">Delete Post</button><br><br>
+</form>
 {% endblock %}
