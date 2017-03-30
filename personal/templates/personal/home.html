@@ -1,7 +1,5 @@
 {% extends "personal/header.html" %}
 
 {% block content %}
-<p>Welcome to my website. I am a programmer</p>
-
-
+<p>Welcome {{ request.user.first_name }}</p>
 {% endblock %}
