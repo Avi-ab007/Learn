@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Avinash Bunde</title>
+	<title>My Site</title>
 	<meta charset="utf-8" />
 	{% load staticfiles %}
 	<link rel="stylesheet" href="{% static 'personal/css/bootstrap.min.css' %}" type = "text/css"/>
@@ -41,7 +41,7 @@
 			  <div class="col-sm-2">
 				  <br>
 				  <center>
-					<img src="{% static 'personal/img/profile.jpg' %}" class="responsive-img" style='max-height:100px;' alt="Profile Image">
+					<img src="{{ request.user.userprofile.picture.url }}" class="responsive-img" style='max-height:100px;' alt="Profile Image">
 				  </center>
 			  </div>
 			  <div class="col-sm-10">
@@ -63,7 +63,7 @@
 				<li><a href='/home/'>Home</a></li>
 				<li><a href='/blog/'>Blog</a></li>
 				<li><a href="/polls/">Polls</a></li>
-				<li><a href='/contact/'>Contact</a></li>
+				<li><a href='/profile/'>Profile</a></li>
 				<li><a href='/logout/'>Logout</a></li>
 			  </ul>
 			</div> <!--well bs-sidebar affix-->

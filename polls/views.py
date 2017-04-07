@@ -1,14 +1,17 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
 from django.template import loader
 from .models import Question, Choice
 from django.views import generic
+from django.contrib.auth.decorators import login_required
 
 
 class IndexView(generic.ListView):
 	template_name = 'polls/index.html'
 	context_object_name = 'latest_question_list'
+	def login_required(self):
+		return partial(login_required, login_url='personal:login')
 
 	def get_queryset(self):
 		return Question.objects.order_by('-publish_date')[:5]

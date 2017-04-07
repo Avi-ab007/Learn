@@ -1,5 +1,9 @@
 {% extends "personal/header.html" %}
 
 {% block content %}
-<p>Welcome {{ request.user.first_name }}</p>
+{% if request.user.first_name %}
+	<p>Welcome {{ request.user.first_name }}</p>
+{% else %}
+	<p>Please complete your profile.</p>
+{% endif %}
 {% endblock %}

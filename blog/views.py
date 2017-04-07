@@ -3,6 +3,7 @@ from django.views import generic
 from .models import Post
 from django.http import HttpResponse
 from .forms import PostForm
+from django.contrib.auth.decorators import login_required
 
 def add_post(request):
 	form = PostForm(request.POST or None)
@@ -22,6 +23,9 @@ def delete_post(request, post_id):
 
 class postList(generic.ListView):
 	template_name = 'blog/blog.html'
+
+	def login_required(self):
+		return partial(login_required, login_url='personal:login')
 
 	def get_queryset(self):
 		return Post.objects.all().order_by("-date")[:25]

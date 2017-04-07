@@ -1,0 +1,41 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+	{% if errors %}
+		<p>{{ errors }}</p>
+	{% endif %}
+	<form class="form-horizontal" role="form" action="" method="post" enctype="multipart/form-data">
+	{% csrf_token %}
+	<div class="container-fluid">
+		<div class="row">
+			<div class="panel-body">
+				<h3>Profile</h3>
+				{% if error_message %}
+				    <p><strong>{{ error_message }}</strong></p>
+				{% endif %}
+				{% for field in update_user_form %}
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<span class="text-danger small">{{field.errors}}</span>
+					</div>
+					<label class="control=label col-sm-2">{{ field.label_tag }}</label>
+					<div class="col-sm-10">{{ field }}</div>
+				</div>
+				{% endfor %}
+				{% for field in update_photo_form %}
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<span class="text-danger small">{{field.errors}}</span>
+					</div>
+						<label class="control=label col-sm-2">{{ field.label_tag }}</label>
+					<div class="col-sm-10">{{ field }}</div>
+				</div>
+				{% endfor %}
+				<div class="col-sm-offset-2 col-sm-10">
+				    <button type="submit" class="btn btn-success">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+{% endblock %}
