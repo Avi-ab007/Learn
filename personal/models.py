@@ -22,9 +22,9 @@ class UserProfile(models.Model):
 		)
 	department = models.CharField(max_length=5, choices=BRANCH)
 	picture = models.ImageField(upload_to='profile_pictures', default='default_pic.jpg')
-	isAdmin = models.BooleanField(default=False)
+	isAdmin = models.BooleanField(default=True)
 	dob = models.DateField(default=date.today)
-	gender = models.CharField(max_length=20, choices=SEX, default='Not Specific')
+	gender = models.CharField(max_length=20, choices=SEX, default='N')
 
 	def __str__(self):
 		return self.user.username

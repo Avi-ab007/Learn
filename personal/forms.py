@@ -31,7 +31,7 @@ class UserForm2(ModelForm):
 		fields = ['first_name', 'last_name',]
 
 
-class UserPhotoUpdateForm(forms.ModelForm):
+class UserProfileUpdateForm(forms.ModelForm):
 	class Meta:
 		model = UserProfile
 		fields = ['picture','department', 'gender',]

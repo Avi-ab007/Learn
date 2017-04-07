@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-from .forms import UserForm, UserProfileForm, UserPhotoUpdateForm, UserForm2
+from .forms import UserForm, UserProfileForm, UserProfileUpdateForm, UserForm2
 from django.contrib.auth import authenticate,login,logout
 from .models import UserProfile
 from django.contrib.auth.decorators import login_required
@@ -21,12 +21,11 @@ def profile(request):
 		return render(request, 'personal/profile.html', {'errors': 'User profile does not exist!'})
 
 	update_user_form = UserForm2(data=request.POST, instance=request.user)
-	update_photo_form = UserPhotoUpdateForm(data=request.POST, instance=user_profile)
+	update_profile_form = UserProfileUpdateForm(data=request.POST, instance=user_profile)
 	if request.method == "POST":
-		if update_user_form.is_valid() and update_photo_form.is_valid():
-			print('Move ahead')
+		if update_user_form.is_valid() and update_profile_form.is_valid():
 			user = update_user_form.save()
-			profile = update_photo_form.save(commit=False)
+			profile = update_profile_form.save(commit=False)
 			profile.user = user
 			temp = profile.picture
 			if 'picture' in request.FILES:
@@ -37,7 +36,7 @@ def profile(request):
 				profile.picture = temp
 				context = {
 				'update_user_form': update_user_form,
-				'update_photo_form': update_photo_form,
+				'update_profile_form': update_photo_form,
 				'errors': 'Image format not supported!',
 				}
 				return render(request, 'personal/profile.html', context)
@@ -45,7 +44,7 @@ def profile(request):
 			return redirect('personal:index')
 	context = {
 		'update_user_form': update_user_form,
-		'update_photo_form': update_photo_form,
+		'update_profile_form': update_profile_form,
 	}
 	return render(request, 'personal/profile.html', context)
 
