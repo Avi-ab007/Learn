@@ -5,27 +5,33 @@ from .models import UserProfile
 from django.contrib import admin
 
 
+class DateInput(forms.DateInput):
+	input_type = 'date'
+
 class UserForm(forms.ModelForm):
 	password = forms.CharField(widget=forms.PasswordInput())
 	confirm_password = forms.CharField(widget=forms.PasswordInput())
 	class Meta:
 		model = User
-		fields = ['username', 'first_name', 'last_name', 'password', 'confirm_password']
+		fields = ['username', 'password', 'confirm_password']
 
 
 class UserProfileForm(forms.ModelForm):
 	class Meta:
 		model = UserProfile
-		fields = ['department',]
+		fields = ['dob',]
+		widgets = {
+            'dob': DateInput(attrs={'type': 'date'}),
+        }
 
 
 class UserForm2(ModelForm):
 	class Meta:
 		model = User
-		fields = ['username',]
+		fields = ['first_name', 'last_name',]
 
 
 class UserPhotoUpdateForm(forms.ModelForm):
 	class Meta:
 		model = UserProfile
-		fields = ['picture',]
+		fields = ['picture','department', 'gender',]
